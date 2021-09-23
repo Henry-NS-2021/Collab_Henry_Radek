@@ -7,8 +7,7 @@
 // }
 // g(200);
 
-
-// // // Solution 2:
+// // Solution 2:
 // function hhMm(minutes) {
 //     let hh = Math.floor(minutes / 60);
 //     let mm = minutes % 60;
@@ -16,15 +15,12 @@
 // }
 // hhMm(200);
 
-
 //Solution 3 (ES6):
 
-// var t = (minutes) => {
-//     return minutes + " minutes = " + Math.floor(minutes / 60) + " hour(s) and " + minutes % 60 + " minute(s)."
-// }
-// t(200);
 
-//Solution 4:
-var t = minutes => minutes + " minutes = " + Math.floor(minutes / 60) + " hour(s) and " + minutes % 60 + " minute(s)."
 
+
+var t = (minutes) => {
+    return minutes + " minutes = " + Math.floor(minutes / 60) + " hour(s) and " + minutes % 60 + " minute(s)."
+}
 t(200);
